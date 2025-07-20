@@ -45,3 +45,5 @@ AIOS follows a modular 5-step pipeline:
 4. `actions`: AIOS opens your banking app and autofills payment.
 5. `automation`: Marks task as "done" in a Notion board via API.
 
+update https://www.canva.com/design/DAGtX-hrzbA/v1wNN2pjuaZ_GuqErFuS0g/edit?utm_content=DAGtX-hrzbA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+

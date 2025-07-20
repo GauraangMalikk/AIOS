@@ -1,4 +1,4 @@
-# AIOS – Open Source Artificial Intelligence Operating System
+# AIOS – Open Source Artificial Intelligence Operating System (in progress)
 
 **AIOS** is an on-premise, modular system that captures screen context, interprets it with local or remote LLMs, and executes automated actions via keyboard/mouse emulation, APIs, or shell commands. It is designed as a minimal AI-native desktop automation layer.
 

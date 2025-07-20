@@ -47,3 +47,66 @@ AIOS follows a modular 5-step pipeline:
 
 update https://www.canva.com/design/DAGtX-hrzbA/v1wNN2pjuaZ_GuqErFuS0g/edit?utm_content=DAGtX-hrzbA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+
+
+
+Title Slide
+
+Title: AIOS: Local AI Operating System
+
+Subtitle: Voice-activated, Privacy-first, Environmentally Friendly
+
+Slide: Use Cases
+
+Voice and text control for everyday tasks
+
+Open apps, files, and websites
+
+Run commands and workflows
+
+Accessible to non-technical users (e.g., grandparents)
+
+Developer & power-user automation via scripts and integrations
+
+Slide: Grandma-Friendly Interaction
+
+Natural language commands
+
+No technical jargon required
+
+Simple voice or text input
+
+Slide: Local & Private
+
+Runs entirely on the user’s machine
+
+No internet or cloud dependency
+
+Zero data leaves the local environment
+
+Slide: Environmental Benefits
+
+Eliminates energy-hungry cloud model inference
+
+Reduces data transfer and server usage
+
+Leverages on-device computing resources efficiently
+
+Slide: Architecture Overview
+
+TinyLlama model powered by Ollama
+
+ReAct prompt-engineering for actions
+
+Python-based action handlers (apps, files, workflows)
+
+FAISS for local semantic retrieval (future)
+
+Slide: Conclusion
+
+AIOS empowers users of all skill levels
+
+Secure, fast, and sustainable
+
+The future of personal AI operating systems
+

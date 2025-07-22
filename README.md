@@ -70,7 +70,7 @@ AIOS follows a modular 5-step pipeline:
 
   ---
 
-### 📅 July&nbsp;2025 &nbsp;—&nbsp; Local LLM Reasoning & Desktop Control Progress
+### 📅 First update - July&nbsp;2025 &nbsp;—&nbsp; Local LLM Reasoning & Desktop Control Progress
 
 - **TinyLLaMA via Ollama** – `LLMReasoning.ipynb` now chats with a local TinyLLaMA model using `ollama.chat`, keeping everything offline and private.  
 - **Cross-platform app launcher** – Auto-detects macOS / Linux / Windows apps, lists them, and launches by number or exact name.  

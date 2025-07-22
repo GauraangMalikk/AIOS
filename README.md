@@ -2,6 +2,7 @@
 
 **AIOS** is an on-premise, modular system that captures screen context, interprets it with local or remote LLMs, and executes automated actions via keyboard/mouse emulation, APIs, or shell commands. It is designed as a minimal AI-native desktop automation layer.
 
+- [Detailed Walkthrough](https://www.canva.com/design/DAGt3KB_Atc/QiIYTdwb_ZN64b1LuLdJVg/view?utm_content=DAGt3KB_Atc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h45a04d0ce5)
 ---
 
 ## 🔧 Architecture Overview

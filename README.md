@@ -46,3 +46,25 @@ AIOS follows a modular 5-step pipeline:
 5. `automation`: Marks task as "done" in a Notion board via API.
 
 update https://www.canva.com/design/DAGtX-hrzbA/v1wNN2pjuaZ_GuqErFuS0g/edit?utm_content=DAGtX-hrzbA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+## Vision
+
+**Empower users with a truly autonomous, privacy‑first desktop assistant** that…
+
+- **Thinks Ahead, Acts Instantly**  
+  Anticipates your needs—scheduling meetings, replying to messages, managing reminders—without lifting a finger.
+
+- **Runs Entirely On‑Premise**  
+  All ML inference and decision‑making happen locally, so your data never leaves your device.
+
+- **Seamlessly Integrates Into Your Workflow**  
+  From opening apps to filling forms, AIOS handles end‑to‑end task automation based on your screen context.
+
+- **Learns and Evolves Over Time**  
+  Embedding‑based recall (via FAISS) lets AIOS remember past actions and optimize future automation.
+
+- **Makes Every Device Smarter**  
+  Your desktop, phone, or tablet become proactive partners—no cloud lock‑in, no privacy trade‑offs.
+
+

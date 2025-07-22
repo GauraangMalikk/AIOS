@@ -5,6 +5,15 @@
 - [Detailed Walkthrough](https://www.canva.com/design/DAGt3KB_Atc/QiIYTdwb_ZN64b1LuLdJVg/view?utm_content=DAGt3KB_Atc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h45a04d0ce5)
 ---
 
+### July 2025 — Local LLM Reasoning & Desktop Control Progress
+
+- **TinyLLaMA via Ollama**: `LLMReasoning.ipynb` now chats with a local TinyLLaMA model using `ollama.chat`, keeping everything offline and private.  
+- **Cross-platform app launcher**: Auto-detects macOS/Linux/Windows apps, lists them, and launches by number or exact name.  
+- **JSON-only chooser**: A TinyLLaMA prompt returns a strict `{"index": N}` object; if parsing fails, a keyword fallback still finds the right app.  
+- **Semantic safety net**: Responses are evaluated and logged, setting the stage for future hallucination checks within the OS-control loop.
+
+**Next up:** unify this notebook logic into AIOS modules and surface a minimal UI for non-technical users.
+
 ## 🔧 Architecture Overview
 
 AIOS follows a modular 5-step pipeline:

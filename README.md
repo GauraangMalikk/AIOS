@@ -4,16 +4,6 @@
 
 [![Detailed Walkthrough – Canva](https://img.shields.io/badge/Slide_Deck-Open-blue?logo=canva)](https://www.canva.com/design/DAGt3KB_Atc/QiIYTdwb_ZN64b1LuLdJVg/view?utm_content=DAGt3KB_Atc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h45a04d0ce5)
 
----
-
-### 📅 July&nbsp;2025 &nbsp;—&nbsp; Local LLM Reasoning & Desktop Control Progress
-
-- **TinyLLaMA via Ollama** – `LLMReasoning.ipynb` now chats with a local TinyLLaMA model using `ollama.chat`, keeping everything offline and private.  
-- **Cross-platform app launcher** – Auto-detects macOS / Linux / Windows apps, lists them, and launches by number or exact name.  
-- **JSON-only chooser** – TinyLLaMA returns a strict `{"index": N}` schema; if parsing fails, we fall back to keyword matching.  
-- **Semantic safety net** – Responses are evaluated and logged, laying groundwork for future hallucination checks in the control loop.
-
-**Next up:** unify this notebook logic into AIOS modules and surface a minimal UI for non-technical users.
 
 ---
 
@@ -76,5 +66,18 @@ AIOS follows a modular 5-step pipeline:
 
 - **Makes Every Device Smarter**  
   Your desktop, phone, or tablet become proactive partners—no cloud lock‑in, no privacy trade‑offs.
+
+
+  ---
+
+### 📅 July&nbsp;2025 &nbsp;—&nbsp; Local LLM Reasoning & Desktop Control Progress
+
+- **TinyLLaMA via Ollama** – `LLMReasoning.ipynb` now chats with a local TinyLLaMA model using `ollama.chat`, keeping everything offline and private.  
+- **Cross-platform app launcher** – Auto-detects macOS / Linux / Windows apps, lists them, and launches by number or exact name.  
+- **JSON-only chooser** – TinyLLaMA returns a strict `{"index": N}` schema; if parsing fails, we fall back to keyword matching.  
+- **Semantic safety net** – Responses are evaluated and logged, laying groundwork for future hallucination checks in the control loop.
+
+**Next up:** unify this notebook logic into AIOS modules and surface a minimal UI for non-technical users.
+
 
 

@@ -1,18 +1,21 @@
-# AIOS – Open Source Artificial Intelligence Operating System (in progress)
+# 🚀 AIOS – Open-Source Artificial Intelligence Operating System _(Work in Progress)_
 
-**AIOS** is an on-premise, modular system that captures screen context, interprets it with local or remote LLMs, and executes automated actions via keyboard/mouse emulation, APIs, or shell commands. It is designed as a minimal AI-native desktop automation layer.
+**AIOS** is an on-premise, modular system that captures screen context, interprets it with local or remote LLMs, and executes automated actions via keyboard/mouse emulation, APIs, or shell commands. Think of it as a minimal, AI-native desktop automation layer.
 
-- [Detailed Walkthrough](https://www.canva.com/design/DAGt3KB_Atc/QiIYTdwb_ZN64b1LuLdJVg/view?utm_content=DAGt3KB_Atc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h45a04d0ce5)
+[![Detailed Walkthrough – Canva](https://img.shields.io/badge/Slide_Deck-Open-blue?logo=canva)](https://www.canva.com/design/DAGt3KB_Atc/QiIYTdwb_ZN64b1LuLdJVg/view?utm_content=DAGt3KB_Atc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h45a04d0ce5)
+
 ---
 
-### July 2025 — Local LLM Reasoning & Desktop Control Progress
+### 📅 July&nbsp;2025 &nbsp;—&nbsp; Local LLM Reasoning & Desktop Control Progress
 
-- **TinyLLaMA via Ollama**: `LLMReasoning.ipynb` now chats with a local TinyLLaMA model using `ollama.chat`, keeping everything offline and private.  
-- **Cross-platform app launcher**: Auto-detects macOS/Linux/Windows apps, lists them, and launches by number or exact name.  
-- **JSON-only chooser**: A TinyLLaMA prompt returns a strict `{"index": N}` object; if parsing fails, a keyword fallback still finds the right app.  
-- **Semantic safety net**: Responses are evaluated and logged, setting the stage for future hallucination checks within the OS-control loop.
+- **TinyLLaMA via Ollama** – `LLMReasoning.ipynb` now chats with a local TinyLLaMA model using `ollama.chat`, keeping everything offline and private.  
+- **Cross-platform app launcher** – Auto-detects macOS / Linux / Windows apps, lists them, and launches by number or exact name.  
+- **JSON-only chooser** – TinyLLaMA returns a strict `{"index": N}` schema; if parsing fails, we fall back to keyword matching.  
+- **Semantic safety net** – Responses are evaluated and logged, laying groundwork for future hallucination checks in the control loop.
 
 **Next up:** unify this notebook logic into AIOS modules and surface a minimal UI for non-technical users.
+
+---
 
 ## 🔧 Architecture Overview
 
